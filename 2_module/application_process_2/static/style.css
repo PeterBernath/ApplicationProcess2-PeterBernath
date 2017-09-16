@@ -1,0 +1,187 @@
+body {
+	text-align: center;
+	margin-top: 150px;
+	font-family: Ubuntu;
+	line-height: 1.5;
+	background: #ffcccc;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	}
+
+#logo {
+	opacity: 0.2;
+}
+
+#logo:hover {
+	opacity: 0.8;
+}
+
+.main {
+	text-align: center;
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffb3b3;
+	margin: 100px 300px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.mentors {
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffb3b3;
+	margin: 50px 200px;
+	padding-top: 20px;
+}
+
+.contacts {
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffb3b3;
+	margin: 50px 310px;
+	padding-top: 20px;
+}
+
+.applicants {
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffb3b3;
+	margin: 50px 250px;
+	padding-top: 20px;
+}
+
+.applicants_mentors {
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffb3b3;
+	margin: 50px 200px;
+	padding-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border-style: none;
+}
+
+tbody {
+	height: 285px;
+	display: block;
+	overflow-y: auto;
+}
+
+th, td {
+	border-style: none;
+   	border-bottom: 1px solid #ffb3b3;
+   	padding: 5px 70px;
+   	opacity: 0.5;
+}
+
+tr:hover {
+	background: #800000;
+	opacity: 0.5;
+	color: #fff;
+}
+
+th {
+	background: #800000;
+	opacity: 0.2;
+	color: #fff;
+}
+
+#index tbody {
+	margin-top: 30px;
+	height: 220px;
+	display: block;
+	overflow-y: auto;
+}
+
+#index th, #index td {
+	border-style: none;
+   	padding: 5px 70px;
+   	opacity: 0.5;
+}
+
+#index tr:hover {
+	background: #ffb3b3;
+	opacity: 1;
+	color: #ffffff;
+}
+
+#index td:hover {
+	background: #ffb3b3;
+	opacity: 1;
+	color: #ffffff;
+}
+
+#country tbody {
+	margin-top: 30px;
+	height: 110px;
+	display: block;
+	overflow-y: auto;
+}
+
+#country th, #country td {
+	border-style: none;
+   	padding: 5px 128px;
+   	opacity: 0.5;
+}
+
+#country tr:hover {
+	background: #ffb3b3;
+	opacity: 1;
+	color: #4d0000;
+}
+
+#country td:hover {
+	background: #ffb3b3;
+	opacity: 1;
+	color: #4d0000;
+}
+
+#contacts tbody {
+	margin-top: 5px;
+	height: 180px;
+	display: block;
+	overflow-y: auto;
+}
+
+#applicants tbody {
+	margin-top: 30px;
+	height: 210px;
+	display: block;
+	overflow-y: auto;
+}
+
+#applicants_mentors tbody {
+	margin-top: 30px;
+	height: 210px;
+	display: block;
+	overflow-y: auto;
+}
+
+h1 {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	width: 68%;
+	font-family:  Ubuntu, sans-serif;
+	letter-spacing: 0.3em;
+	font-size: 20px;
+	color: #003366;
+	opacity: 0.3;
+	padding: 0px 10px;
+}
+
+a:link {
+	font-weight: bold;
+	color: #001a33;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+a:visited {
+	font-weight: bold;
+	color: #001a33;
+	text-decoration: none;
+	opacity: 0.7;
+}

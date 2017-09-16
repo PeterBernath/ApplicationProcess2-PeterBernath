@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Schools</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <div class="mentors">
+        <a href="/"><img src="/static/logo.png" height="72" width="79" id="logo"></a>
+        <h1>All Schools</h1>
+        <table border="1" align="center">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>School Name</th>
+                <th>Country</th>
+            </tr>
+            {% for row in mentors %}
+            <tr>
+                <td>{{ row['first_name'] }}</td>
+                <td>{{ row['last_name'] }}</td>
+                <td>{{ row['school_name'] }}</td>
+                <td>{{ row['country'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    </body>
+</html>

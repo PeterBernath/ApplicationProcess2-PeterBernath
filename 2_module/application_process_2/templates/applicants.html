@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Applicants</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <div class="applicants">
+        <a href="/"><img src="/static/logo.png" height="72" width="79" id="logo"></a>
+        <h1>Applicants</h1>
+        <table border="1" align="center" id="applicants">
+            <tr>
+                <th>Applicant Name</th>
+                <th>Application Code</th>
+                <th>Creation Date</th>
+            </tr>
+            {% for row in applicants %}
+            <tr>
+                <td>{{ row['first_name'] }}</td>
+                <td>{{ row['application_code'] }}</td>
+                <td>{{ row['creation_date'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    </body>
+</html>

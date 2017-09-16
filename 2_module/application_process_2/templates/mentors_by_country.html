@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mentors by Country</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <div class="main">
+        <a href="/"><img src="/static/logo.png" height="72" width="79" id="logo"></a>
+        <h1>Mentors by Country</h1>
+        <table border="1" align="center" id="country">
+            <tr>
+                <th>Country</th>
+                <th>Number of Mentors</th>
+            </tr>
+            {% for row in mentors %}
+            <tr>
+                <td>{{ row['country'] }}</td>
+                <td>{{ row['count'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    </body>
+</html>
